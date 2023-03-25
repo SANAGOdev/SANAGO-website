@@ -1,0 +1,12 @@
+{
+  "name": "sanago_website",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/main.scss css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SANAGOdev",
+  "license": "ISC"
+}

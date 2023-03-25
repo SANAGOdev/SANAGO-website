@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-image: $background_color;
+    background-repeat: no-repeat;
+    height: 60rem;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    #profile_picture {
+        background-image: url("../assets/SANAGO_retro_gif.gif");
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        width: 7.5rem;
+        height: 120px;
+    }
+    #title  {
+        display: flex;
+        align-items: center;
+        @include text_box;
+        span {
+            background-color: #2d2239;
+        }
+    }
+}
