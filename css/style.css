@@ -5,7 +5,7 @@
 
 body,
 html {
-  background-image: linear-gradient(to bottom right, #2d2239, #232135);
+  background-image: linear-gradient(to bottom right, #150c20, #0f0c24);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -38,10 +38,9 @@ html {
   align-items: center;
   color: white;
   font-weight: bold;
-  background-color: #2d2239;
+  background-color: #221332;
   padding: 1rem;
   margin: 1rem;
-  box-shadow: 0px 0px 3px black;
   border-radius: 5px;
   transition: all 200ms;
 }
@@ -59,10 +58,9 @@ main .container {
   flex-direction: row;
   color: white;
   font-weight: bold;
-  background-color: #2d2239;
+  background-color: #221332;
   padding: 1rem;
   margin: 1rem;
-  box-shadow: 0px 0px 3px black;
   border-radius: 5px;
   transition: all 200ms;
   margin-left: 15rem;

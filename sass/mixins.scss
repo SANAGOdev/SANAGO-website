@@ -1,16 +1,9 @@
-@mixin theme($theme: DarkGray) {
-    background: $theme;
-    box-shadow: 0 0 1px rgba($theme, 0.25);
-    color: #fff;
-}
-
 @mixin text_box {
     color: white;
     font-weight: bold;
     background-color: $primary_color;
     padding: 1rem;
     margin: 1rem;
-    box-shadow: 0px 0px 3px darken($secondary_color, 20%);
     border-radius: 5px;
     transition: all 200ms;
     &:hover {

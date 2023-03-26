@@ -1,8 +1,8 @@
-$primary_color: #2d2239;
-$secondary_color: #232135;
+$primary_color: #221332;
+$secondary_color: #171337;
 $terciary_color: #8001ff;
 $background_color: linear-gradient(
     to bottom right,
-    $primary_color,
-    $secondary_color
+    darken($primary_color, 5%),
+    darken($secondary_color, 5%)
 );
