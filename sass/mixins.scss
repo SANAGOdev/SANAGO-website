@@ -1,14 +1,54 @@
 @mixin theme($theme: DarkGray) {
-  background: $theme;
-  box-shadow: 0 0 1px rgba($theme, .25);
-  color: #fff;
+    background: $theme;
+    box-shadow: 0 0 1px rgba($theme, 0.25);
+    color: #fff;
 }
 
 @mixin text_box {
-  color: $terciary_color;
-  background-color: #2d2239;
-  padding: 1rem;
-  margin-left: 1rem;
-  border: solid 1px black;
-  border-radius: 5px;
+    color: $terciary_color;
+    text-shadow: 0px 0px 5px lighten($terciary_color, 5%);
+    background-color: $primary_color;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 3px darken($secondary_color, 20%);
+    border-radius: 5px;
+    transition: all 200ms;
+    &:hover {
+        box-shadow: 0px 0px 10px $terciary_color;
+    }
+}
+@mixin social_medias {
+    background-size: cover;
+    background-position: center;
+    width: 5rem;
+    background-color: darken($terciary_color, 25%);
+    margin: 0.5rem;
+    height: 5rem;
+    border-radius: 100%;
+    transition: all 200ms;
+    &:hover {
+        @include hover_box;
+    }
+}
+
+@mixin social_medias_block {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2rem;
+    margin-left: 0.5rem;
+    transition: all 200ms;
+}
+
+@mixin hover_box {
+    box-shadow: 0px 0px 20px $terciary_color;
+    cursor: pointer;
+}
+
+@mixin social_links {
+    margin: 1rem;
+    border-radius: 5px;
+    transition: all 200ms;
+    &:hover {
+        @include hover_box;
+    }
 }

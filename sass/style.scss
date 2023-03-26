@@ -4,31 +4,112 @@
     font-family: 'Lato', sans-serif;
 }
 
-body {
+body, html {
     background-image: $background_color;
     background-repeat: no-repeat;
-    height: 60rem;
+    background-size: cover;
+    height: 100%;
     margin: 0;
 }
 
 #header {
     display: flex;
+    margin-bottom: 5rem;
     justify-content: center;
     margin-top: 1rem;
     #profile_picture {
-        background-image: url("../assets/SANAGO_retro_gif.gif");
+        background-image: url('../assets/SANAGO_retro_gif.gif');
         background-size: cover;
         background-position: center;
         border-radius: 50%;
+        box-shadow: 0px 0px 10px $terciary_color;
+        min-width: 7.5rem;
         width: 7.5rem;
         height: 120px;
+        transition: all 300ms;
     }
-    #title  {
+    #profile_picture:hover {
+        @include hover_box;
+    }
+    #title {
         display: flex;
         align-items: center;
         @include text_box;
         span {
-            background-color: #2d2239;
+            white-space: nowrap;
+            border-right: 0.08em solid $terciary_color;
+        }
+    }
+}
+
+main {
+    .container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        @include text_box;
+        margin-left: 15rem;
+        margin-right: 15rem;
+        .buttons_container {
+            display: flex;
+            .social_medias {
+                @include social_medias_block;
+                .github {
+                    background-image: url('../assets/github_opacity.png');
+                    @include social_medias;
+                }
+                .discord {
+                    background-image: url('../assets/discord_opacity.png');
+                    @include social_medias;
+                }
+                .youtube {
+                    background-image: url('../assets/youtube_circle_opacity.png');
+                    @include social_medias;
+                }
+            }
+            .social_medias_2 {
+                @include social_medias_block;
+                .spotify {
+                    background-image: url('../assets/spotify.png');
+                    @include social_medias;
+                }
+                .steam {
+                    background-image: url('../assets/steam_opacity.png');
+                    @include social_medias;
+                }
+                .reddit {
+                    background-image: url('../assets/reddit_opacity.png');
+                    @include social_medias;
+                }
+            }
+        }
+
+        .social_links {
+            .discord_status {
+                background-image: url(('https://discord.c99.nl/widget/theme-3/707863977493004399.png'));
+                background-size: cover;
+                background-position: center;
+                width: 22rem;
+                height: 4rem;
+                @include social_links;
+            }
+            .discord_server_member_list {
+                @include social_links;
+                margin: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #header {
+        display: flex;
+        flex-wrap: wrap;
+        #title {
+            margin: 1rem;
+            span {
+                white-space: normal;
+            }
         }
     }
 }
