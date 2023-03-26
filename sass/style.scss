@@ -149,13 +149,22 @@ main {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
+            .buttons_container {
+                p {
+                    margin: 0;
+                    white-space: nowrap;
+                }
+            }
             .social_links {
                 margin-left: 1rem;
                 .discord_status {
+                    margin: 0;
                     width: 17rem;
                     height: 3rem;
                 }
                 .discord_server_member_list {
+                    margin: 0;
+                    margin-top: 1rem;
                     width: 17rem;
                     height: 30rem;
                 }
