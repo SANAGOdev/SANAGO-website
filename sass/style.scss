@@ -51,6 +51,7 @@ main {
         @include text_box;
         margin-left: 15rem;
         margin-right: 15rem;
+        padding: 1rem;
         .buttons_container {
             display: flex;
             .social_medias {
@@ -136,16 +137,29 @@ main {
 
 @media screen and (max-width: 700px) {
     body {
-        height: 130%;
+        height: 200%;
     }
     #header {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .container {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+    main {
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .social_links {
+                margin-left: 1rem;
+                .discord_status {
+                    width: 17rem;
+                    height: 3rem;
+                }
+                .discord_server_member_list {
+                    width: 17rem;
+                    height: 30rem;
+                }
+            }
+        }
     }
 }
