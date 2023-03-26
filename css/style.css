@@ -1,303 +1,297 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap");
 * {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body,
 html {
-    background-image: linear-gradient(to bottom right, #2d2239, #232135);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    margin: 0;
+  background-image: linear-gradient(to bottom right, #2d2239, #232135);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
 }
 
 #header {
-    display: flex;
-    margin-bottom: 5rem;
-    justify-content: center;
-    margin-top: 1rem;
+  display: flex;
+  margin-bottom: 5rem;
+  justify-content: center;
+  margin-top: 1rem;
 }
 #header #profile_picture {
-    background-image: url('../assets/SANAGO_retro_gif.gif');
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    box-shadow: 0px 0px 10px #8001ff;
-    min-width: 7.5rem;
-    width: 7.5rem;
-    height: 120px;
-    transition: all 300ms;
+  background-image: url("../assets/SANAGO_retro_gif.gif");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #8001ff;
+  min-width: 7.5rem;
+  width: 7.5rem;
+  height: 120px;
+  transition: all 300ms;
 }
 #header #profile_picture:hover {
-    box-shadow: 0px 0px 20px #8001ff;
-    cursor: pointer;
+  box-shadow: 0px 0px 20px #8001ff;
+  cursor: pointer;
 }
 #header #title {
-    display: flex;
-    align-items: center;
-    color: #8001ff;
-    text-shadow: 0px 0px 5px #8d1bff;
-    background-color: #2d2239;
-    padding: 1rem;
-    margin: 1rem;
-    box-shadow: 0px 0px 3px black;
-    border-radius: 5px;
-    transition: all 200ms;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  background-color: #2d2239;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 5px;
+  transition: all 200ms;
 }
 #header #title:hover {
-    box-shadow: 0px 0px 10px #8001ff;
+  box-shadow: 0px 0px 10px #8001ff;
 }
 #header #title span {
-    white-space: nowrap;
-    border-right: 0.08em solid #8001ff;
+  white-space: nowrap;
+  border-right: 0.08em solid white;
 }
 
 main .container {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    color: #8001ff;
-    text-shadow: 0px 0px 5px #8d1bff;
-    background-color: #2d2239;
-    padding: 1rem;
-    margin: 1rem;
-    box-shadow: 0px 0px 3px black;
-    border-radius: 5px;
-    transition: all 200ms;
-    margin-left: 15rem;
-    margin-right: 15rem;
-    padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  color: white;
+  font-weight: bold;
+  background-color: #2d2239;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 5px;
+  transition: all 200ms;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  padding: 1rem;
 }
 main .container:hover {
-    box-shadow: 0px 0px 10px #8001ff;
+  box-shadow: 0px 0px 10px #8001ff;
 }
 main .container .buttons_container {
-    display: flex;
+  display: flex;
 }
 main .container .buttons_container .social_medias {
-    display: flex;
-    flex-direction: column;
-    padding-right: 2rem;
-    margin-left: 0.5rem;
-    transition: all 200ms;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+  margin-left: 0.5rem;
+  transition: all 200ms;
 }
 main .container .buttons_container .social_medias .github {
-    background-image: url('../assets/github_opacity.png');
-    background-size: cover;
-    background-position: center;
-    width: 5rem;
-    background-color: #400081;
-    margin: 0.5rem;
-    height: 5rem;
-    border-radius: 100%;
-    transition: all 200ms;
+  background-image: url("../assets/github_opacity.png");
+  background-size: cover;
+  background-position: center;
+  width: 5rem;
+  margin: 0.5rem;
+  height: 5rem;
+  border-radius: 100%;
+  transition: all 200ms;
 }
 @media screen and (max-width: 700px) {
-    main .container .buttons_container .social_medias .github {
-        width: 4rem;
-        height: 4rem;
-    }
+  main .container .buttons_container .social_medias .github {
+    width: 4rem;
+    height: 4rem;
+  }
 }
 main .container .buttons_container .social_medias .github:hover {
-    box-shadow: 0px 0px 20px #8001ff;
-    cursor: pointer;
+  box-shadow: 0px 0px 20px #8001ff;
+  cursor: pointer;
 }
 main .container .buttons_container .social_medias .discord {
-    background-image: url('../assets/discord_opacity.png');
-    background-size: cover;
-    background-position: center;
-    width: 5rem;
-    background-color: #400081;
-    margin: 0.5rem;
-    height: 5rem;
-    border-radius: 100%;
-    transition: all 200ms;
+  background-image: url("../assets/discord_opacity.png");
+  background-size: cover;
+  background-position: center;
+  width: 5rem;
+  margin: 0.5rem;
+  height: 5rem;
+  border-radius: 100%;
+  transition: all 200ms;
 }
 @media screen and (max-width: 700px) {
-    main .container .buttons_container .social_medias .discord {
-        width: 4rem;
-        height: 4rem;
-    }
+  main .container .buttons_container .social_medias .discord {
+    width: 4rem;
+    height: 4rem;
+  }
 }
 main .container .buttons_container .social_medias .discord:hover {
-    box-shadow: 0px 0px 20px #8001ff;
-    cursor: pointer;
+  box-shadow: 0px 0px 20px #8001ff;
+  cursor: pointer;
 }
 main .container .buttons_container .social_medias .youtube {
-    background-image: url('../assets/youtube_circle_opacity.png');
-    background-size: cover;
-    background-position: center;
-    width: 5rem;
-    background-color: #400081;
-    margin: 0.5rem;
-    height: 5rem;
-    border-radius: 100%;
-    transition: all 200ms;
+  background-image: url("../assets/youtube_circle_opacity.png");
+  background-size: cover;
+  background-position: center;
+  width: 5rem;
+  margin: 0.5rem;
+  height: 5rem;
+  border-radius: 100%;
+  transition: all 200ms;
 }
 @media screen and (max-width: 700px) {
-    main .container .buttons_container .social_medias .youtube {
-        width: 4rem;
-        height: 4rem;
-    }
+  main .container .buttons_container .social_medias .youtube {
+    width: 4rem;
+    height: 4rem;
+  }
 }
 main .container .buttons_container .social_medias .youtube:hover {
-    box-shadow: 0px 0px 20px #8001ff;
-    cursor: pointer;
+  box-shadow: 0px 0px 20px #8001ff;
+  cursor: pointer;
 }
 main .container .buttons_container .social_medias_2 {
-    display: flex;
-    flex-direction: column;
-    padding-right: 2rem;
-    margin-left: 0.5rem;
-    transition: all 200ms;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+  margin-left: 0.5rem;
+  transition: all 200ms;
 }
 main .container .buttons_container .social_medias_2 .spotify {
-    background-image: url('../assets/spotify.png');
-    background-size: cover;
-    background-position: center;
-    width: 5rem;
-    background-color: #400081;
-    margin: 0.5rem;
-    height: 5rem;
-    border-radius: 100%;
-    transition: all 200ms;
+  background-image: url("../assets/spotify.png");
+  background-size: cover;
+  background-position: center;
+  width: 5rem;
+  margin: 0.5rem;
+  height: 5rem;
+  border-radius: 100%;
+  transition: all 200ms;
 }
 @media screen and (max-width: 700px) {
-    main .container .buttons_container .social_medias_2 .spotify {
-        width: 4rem;
-        height: 4rem;
-    }
+  main .container .buttons_container .social_medias_2 .spotify {
+    width: 4rem;
+    height: 4rem;
+  }
 }
 main .container .buttons_container .social_medias_2 .spotify:hover {
-    box-shadow: 0px 0px 20px #8001ff;
-    cursor: pointer;
+  box-shadow: 0px 0px 20px #8001ff;
+  cursor: pointer;
 }
 main .container .buttons_container .social_medias_2 .steam {
-    background-image: url('../assets/steam_opacity.png');
-    background-size: cover;
-    background-position: center;
-    width: 5rem;
-    background-color: #400081;
-    margin: 0.5rem;
-    height: 5rem;
-    border-radius: 100%;
-    transition: all 200ms;
+  background-image: url("../assets/steam_opacity.png");
+  background-size: cover;
+  background-position: center;
+  width: 5rem;
+  margin: 0.5rem;
+  height: 5rem;
+  border-radius: 100%;
+  transition: all 200ms;
 }
 @media screen and (max-width: 700px) {
-    main .container .buttons_container .social_medias_2 .steam {
-        width: 4rem;
-        height: 4rem;
-    }
+  main .container .buttons_container .social_medias_2 .steam {
+    width: 4rem;
+    height: 4rem;
+  }
 }
 main .container .buttons_container .social_medias_2 .steam:hover {
-    box-shadow: 0px 0px 20px #8001ff;
-    cursor: pointer;
+  box-shadow: 0px 0px 20px #8001ff;
+  cursor: pointer;
 }
 main .container .buttons_container .social_medias_2 .reddit {
-    background-image: url('../assets/reddit_opacity.png');
-    background-size: cover;
-    background-position: center;
-    width: 5rem;
-    background-color: #400081;
-    margin: 0.5rem;
-    height: 5rem;
-    border-radius: 100%;
-    transition: all 200ms;
+  background-image: url("../assets/reddit_opacity.png");
+  background-size: cover;
+  background-position: center;
+  width: 5rem;
+  margin: 0.5rem;
+  height: 5rem;
+  border-radius: 100%;
+  transition: all 200ms;
 }
 @media screen and (max-width: 700px) {
-    main .container .buttons_container .social_medias_2 .reddit {
-        width: 4rem;
-        height: 4rem;
-    }
+  main .container .buttons_container .social_medias_2 .reddit {
+    width: 4rem;
+    height: 4rem;
+  }
 }
 main .container .buttons_container .social_medias_2 .reddit:hover {
-    box-shadow: 0px 0px 20px #8001ff;
-    cursor: pointer;
+  box-shadow: 0px 0px 20px #8001ff;
+  cursor: pointer;
 }
 main .container .social_links .discord_status {
-    background-image: url('https://discord.c99.nl/widget/theme-3/707863977493004399.png');
-    background-size: cover;
-    background-position: center;
-    width: 22rem;
-    height: 4rem;
-    margin: 1rem;
-    border-radius: 5px;
-    transition: all 200ms;
+  background-image: url("https://discord.c99.nl/widget/theme-3/707863977493004399.png");
+  background-size: cover;
+  background-position: center;
+  width: 22rem;
+  height: 4rem;
+  margin: 1rem;
+  border-radius: 5px;
+  transition: all 200ms;
 }
 main .container .social_links .discord_status:hover {
-    box-shadow: 0px 0px 20px #8001ff;
-    cursor: pointer;
+  box-shadow: 0px 0px 20px #8001ff;
+  cursor: pointer;
 }
 main .container .social_links .discord_server_member_list {
-    margin: 1rem;
-    border-radius: 5px;
-    transition: all 200ms;
-    margin: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  transition: all 200ms;
+  margin: 1rem;
 }
 main .container .social_links .discord_server_member_list:hover {
-    box-shadow: 0px 0px 20px #8001ff;
-    cursor: pointer;
+  box-shadow: 0px 0px 20px #8001ff;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {
-    #header {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    #header #title {
-        margin: 1rem;
-    }
-    #header #title span {
-        white-space: normal;
-    }
+  #header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #header #title {
+    margin: 1rem;
+  }
+  #header #title span {
+    white-space: normal;
+  }
 }
 @media screen and (max-width: 1200px) {
-    #header #profile_picture {
-        min-width: 0;
-        height: 80px;
-        width: 80px;
-        margin: 1rem;
-    }
-    #title {
-        height: 50px;
-    }
-    main .container {
-        margin: 1rem;
-    }
+  #header #profile_picture {
+    min-width: 0;
+    height: 80px;
+    width: 80px;
+    margin: 1rem;
+  }
+  #title {
+    height: 50px;
+  }
+  main .container {
+    margin: 1rem;
+  }
 }
 @media screen and (max-width: 700px) {
-    body {
-        height: 200%;
-    }
-    #header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    main .container {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-    main .container .buttons_container p {
-        margin: 0;
-        white-space: nowrap;
-    }
-    main .container .social_links {
-        margin-left: 1rem;
-    }
-    main .container .social_links .discord_status {
-        margin: 0;
-        width: 17rem;
-        height: 3rem;
-    }
-    main .container .social_links .discord_server_member_list {
-        margin: 0;
-        margin-top: 1rem;
-        width: 17rem;
-        height: 30rem;
-    }
+  body {
+    height: 200%;
+  }
+  #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  main .container .buttons_container p {
+    margin: 0;
+    white-space: nowrap;
+  }
+  main .container .social_links {
+    margin-left: 1rem;
+  }
+  main .container .social_links .discord_status {
+    margin: 0;
+    width: 17rem;
+    height: 3rem;
+  }
+  main .container .social_links .discord_server_member_list {
+    margin: 0;
+    margin-top: 1rem;
+    width: 17rem;
+    height: 30rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

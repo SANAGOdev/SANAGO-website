@@ -5,8 +5,8 @@
 }
 
 @mixin text_box {
-    color: $terciary_color;
-    text-shadow: 0px 0px 5px lighten($terciary_color, 5%);
+    color: white;
+    font-weight: bold;
     background-color: $primary_color;
     padding: 1rem;
     margin: 1rem;
@@ -21,7 +21,6 @@
     background-size: cover;
     background-position: center;
     width: 5rem;
-    background-color: darken($terciary_color, 25%);
     margin: 0.5rem;
     height: 5rem;
     border-radius: 100%;

@@ -38,7 +38,7 @@ html {
         @include text_box;
         span {
             white-space: nowrap;
-            border-right: 0.08em solid $terciary_color;
+            border-right: 0.08em solid white;
         }
     }
 }
