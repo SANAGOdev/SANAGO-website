@@ -5,7 +5,7 @@
 
 body,
 html {
-  background-image: linear-gradient(to bottom right, #150c20, #0f0c24);
+  background-image: linear-gradient(to bottom right, #627cc3, #0b3357);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -19,18 +19,18 @@ html {
   margin-top: 1rem;
 }
 #header #profile_picture {
-  background-image: url("../assets/SANAGO_retro_gif.gif");
+  background-image: url("../assets/SANAGOpfp.gif");
   background-size: cover;
   background-position: center;
   border-radius: 50%;
-  box-shadow: 0px 0px 10px #8001ff;
+  box-shadow: 0px 0px 10px #7cc0ff;
   min-width: 7.5rem;
   width: 7.5rem;
   height: 120px;
   transition: all 300ms;
 }
 #header #profile_picture:hover {
-  box-shadow: 0px 0px 20px #8001ff;
+  box-shadow: 0px 0px 20px #7cc0ff;
   cursor: pointer;
 }
 #header #title {
@@ -38,14 +38,14 @@ html {
   align-items: center;
   color: white;
   font-weight: bold;
-  background-color: #221332;
+  background-color: #748bca;
   padding: 1rem;
   margin: 1rem;
   border-radius: 5px;
   transition: all 200ms;
 }
 #header #title:hover {
-  box-shadow: 0px 0px 10px #8001ff;
+  box-shadow: 0px 0px 10px #7cc0ff;
 }
 #header #title span {
   white-space: nowrap;
@@ -58,7 +58,7 @@ main .container {
   flex-direction: row;
   color: white;
   font-weight: bold;
-  background-color: #221332;
+  background-color: #748bca;
   padding: 1rem;
   margin: 1rem;
   border-radius: 5px;
@@ -68,7 +68,7 @@ main .container {
   padding: 1rem;
 }
 main .container:hover {
-  box-shadow: 0px 0px 10px #8001ff;
+  box-shadow: 0px 0px 10px #7cc0ff;
 }
 main .container .buttons_container {
   display: flex;
@@ -97,7 +97,7 @@ main .container .buttons_container .social_medias .github {
   }
 }
 main .container .buttons_container .social_medias .github:hover {
-  box-shadow: 0px 0px 20px #8001ff;
+  box-shadow: 0px 0px 20px #7cc0ff;
   cursor: pointer;
 }
 main .container .buttons_container .social_medias .discord {
@@ -117,7 +117,7 @@ main .container .buttons_container .social_medias .discord {
   }
 }
 main .container .buttons_container .social_medias .discord:hover {
-  box-shadow: 0px 0px 20px #8001ff;
+  box-shadow: 0px 0px 20px #7cc0ff;
   cursor: pointer;
 }
 main .container .buttons_container .social_medias .youtube {
@@ -137,7 +137,7 @@ main .container .buttons_container .social_medias .youtube {
   }
 }
 main .container .buttons_container .social_medias .youtube:hover {
-  box-shadow: 0px 0px 20px #8001ff;
+  box-shadow: 0px 0px 20px #7cc0ff;
   cursor: pointer;
 }
 main .container .buttons_container .social_medias_2 {
@@ -164,7 +164,7 @@ main .container .buttons_container .social_medias_2 .spotify {
   }
 }
 main .container .buttons_container .social_medias_2 .spotify:hover {
-  box-shadow: 0px 0px 20px #8001ff;
+  box-shadow: 0px 0px 20px #7cc0ff;
   cursor: pointer;
 }
 main .container .buttons_container .social_medias_2 .steam {
@@ -184,7 +184,7 @@ main .container .buttons_container .social_medias_2 .steam {
   }
 }
 main .container .buttons_container .social_medias_2 .steam:hover {
-  box-shadow: 0px 0px 20px #8001ff;
+  box-shadow: 0px 0px 20px #7cc0ff;
   cursor: pointer;
 }
 main .container .buttons_container .social_medias_2 .reddit {
@@ -204,7 +204,7 @@ main .container .buttons_container .social_medias_2 .reddit {
   }
 }
 main .container .buttons_container .social_medias_2 .reddit:hover {
-  box-shadow: 0px 0px 20px #8001ff;
+  box-shadow: 0px 0px 20px #7cc0ff;
   cursor: pointer;
 }
 main .container .social_links .discord_status {
@@ -218,7 +218,7 @@ main .container .social_links .discord_status {
   transition: all 200ms;
 }
 main .container .social_links .discord_status:hover {
-  box-shadow: 0px 0px 20px #8001ff;
+  box-shadow: 0px 0px 20px #7cc0ff;
   cursor: pointer;
 }
 main .container .social_links .discord_server_member_list {
@@ -228,7 +228,7 @@ main .container .social_links .discord_server_member_list {
   margin: 1rem;
 }
 main .container .social_links .discord_server_member_list:hover {
-  box-shadow: 0px 0px 20px #8001ff;
+  box-shadow: 0px 0px 20px #7cc0ff;
   cursor: pointer;
 }
 
